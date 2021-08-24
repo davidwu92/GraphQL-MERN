@@ -11,7 +11,7 @@ const resolvers = {
     }
   },
 
-  Mutations: {
+  Mutation: {
     addBook: async(parent, args)=>{
       console.log("addBook resolver ran.")
       console.log("parent:", parent)
