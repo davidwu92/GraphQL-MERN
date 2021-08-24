@@ -7,7 +7,7 @@ const resolvers = {
     },
     book: async(parent, {title})=>{
       console.log("parent:", parent)
-      return Book.findOne({title});p
+      return Book.findOne({title})
     }
   },
 
