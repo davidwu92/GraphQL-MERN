@@ -1,0 +1,25 @@
+{
+  "name": "GraphQL-MERN",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "concurrently \"cd server & npm run watch\" \"cd client && npm start\"",
+    "seed": "cd server && npm run seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidwu92/GraphQL-MERN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidwu92/GraphQL-MERN/issues"
+  },
+  "homepage": "https://github.com/davidwu92/GraphQL-MERN#readme",
+  "dependencies": {
+    "concurrently": "^6.2.1"
+  }
+}
